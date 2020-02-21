@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32c0058d-fe26-47b4-ae2e-4a3af6237ec9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uk/co/randomdave/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uk/co/randomdave/DecimalComparitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +30,22 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LeapYear">
+  <component name="RunManager" selected="Application.DecimalComparitor">
     <configuration name="BarkingDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uk.co.randomdave.BarkingDog" />
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.co.randomdave.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecimalComparitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uk.co.randomdave.DecimalComparitor" />
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -83,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecimalComparitor" />
         <item itemvalue="Application.LeapYear" />
         <item itemvalue="Application.BarkingDog" />
         <item itemvalue="Application.MegaBytesConverter" />
@@ -101,26 +114,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582232855769">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582269866540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582232855769" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582232855768">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582269866540" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582269866540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582232855768" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582232855768">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582269866540" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582269866539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582232855768" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582232855768">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582269866539" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582269866540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582232855768" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582222854750">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582269866540" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582267319790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582222854750" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582267319790" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1582148374976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
