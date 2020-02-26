@@ -18,7 +18,7 @@ public class OverloadingMethods {
 //        double centimetres = totalInches * 2.54;
 
         double centimetres = feet * 12 * 2.54;
-        centimetres += inches * 2.54
+        centimetres += inches * 2.54;
 
         return centimetres;
     }
@@ -36,7 +36,7 @@ public class OverloadingMethods {
 //
 //        }
 
-        int feet = (int) inches / 12
+        int feet = (int) inches / 12;
         int inchesRemainder = inches % 12;
         return calcFeetAndInchesToCentimetres(feet,inchesRemainder);
 
