@@ -2,7 +2,10 @@ package uk.co.randomdave;
 
 public class NumberOfDaysInMonth {
     public static void main(String[] args) {
-
+        System.out.println("getDaysInMonth(2,2020) = " + getDaysInMonth(2, 2020));
+        System.out.println("getDaysInMonth(12,2020) = " + getDaysInMonth(12, 2020));
+        System.out.println("getDaysInMonth(3,2020) = " + getDaysInMonth(3, 2020));
+        System.out.println("getDaysInMonth(2,2019) = " + getDaysInMonth(2, 2019));
     }
 
     public static boolean isLeapYear (int year) {
@@ -26,46 +29,19 @@ public class NumberOfDaysInMonth {
         if (year < 1 || year > 9999) return -1;
 
         switch (month) {
-            case 1:
+            case 1: case 3: case 5: case 7: case 8: case 10: case 12:
                 return 31;
-                break;
+
             case 2:
                 if (isLeapYear(year)) {
                     return 29;
                 } else {
                     return 28;
                 }
-                break;
-            case 3:
-                return 31;
-            break;
-            case 1:
-                return 31;
-            break;
-            case 1:
-                return 31;
-            break;
-            case 1:
-                return 31;
-            break;
-            case 1:
-                return 31;
-            break;
-            case 1:
-                return 31;
-            break;
-            case 1:
-                return 31;
-            break;
-            case 1:
-                return 31;
-            break;
-            case 1:
-                return 31;
-            break;
-            case 1:
-                return 31;
-            break;
+
+            case 4: case 6:  case 9: case 11:
+                return 30;
         }
+        return -1;
     }
 }
